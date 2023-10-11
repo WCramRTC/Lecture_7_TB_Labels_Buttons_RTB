@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Lecture_7_TB_Labels_Buttons_RTB"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="Lecture 7 Notes" Height="450" Width="800">
+    <!--Button, TextBox, Label, Rich Text Box-->
+    <StackPanel> 
+        
+        
+        
+        <!--StackPanel-->
+    </StackPanel>
 </Window>
+
+<!--
+    Open and closing
+    <Tag> .... </Tag>
+    
+    Self Closing
+    <Tag />
+    
+    -->
