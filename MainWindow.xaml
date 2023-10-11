@@ -7,10 +7,22 @@
         mc:Ignorable="d"
         Title="Lecture 7 Notes" Height="450" Width="800">
     <!--Button, TextBox, Label, Rich Text Box-->
-    <StackPanel> 
+    <StackPanel x:Name="geraldSecondTextBox">  <!--Layout Tag-->
+
+
+        <Label Content="First Name" />
+        <TextBox Name="txtGerald"/>
+
+        <Label Content="Last Name" />
+        <TextBox Name="txtLastName" />
         
-        
-        
+        <Button Content="Say Hi Gerald" Name="btnHiGerald" Click="btnHiGerald_Click"/>
+
+        <Label Content="Full Name" />
+        <TextBox Name="txtDisplay" />
+
+        <!--Three Layouts : Grid, Canvas, StackPanel-->
+
         <!--StackPanel-->
     </StackPanel>
 </Window>

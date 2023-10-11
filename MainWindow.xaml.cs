@@ -27,6 +27,20 @@ namespace Lecture_7_TB_Labels_Buttons_RTB
         public MainWindow()
         {
             InitializeComponent();
+            
         }
+
+        private void btnHiGerald_Click(object sender, RoutedEventArgs e)
+        {
+            string gerald = txtGerald.Text;
+            string lastName = txtLastName.Text;
+
+            string fullName = gerald + " " + lastName;
+
+
+            txtDisplay.Text = $"Hi {fullName} ";
+        }
+
+    
     }
 }
